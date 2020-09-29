@@ -26,11 +26,13 @@
     height: 185px;
     background-color: #99bbff;
     opacity: 0.7;
+    
   }
   
   nav {
     background-color: #6d73e3;
     height: 75px;
+    width: 100%;
     padding: 3px;
 
   }
@@ -70,3 +72,37 @@
     font-size: 20px;
     color: #0D4859;
   }
+  h1 {
+    color: #0D4859;
+    font-family: 'Playfair Display', serif;
+  }
+  input[type=text], select, textarea, [type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #30037B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+    color: #cccccc;
+  }
+
+  input[type=submit] {
+    background-color: #0D4859;
+    color: oldlace;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #30037B;
+  }
+  .formbox {
+    border-radius: 5px;
+    background-color: #99bbff;
+    padding: 20px;
+  }
+ 
+ 
