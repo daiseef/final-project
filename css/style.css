@@ -26,14 +26,15 @@
     height: 185px;
     background-color: #99bbff;
     opacity: 0.7;
-    
+    border-radius: 3px;
   }
   
   nav {
-    background-color: #6d73e3;
+    background-color: #73C0DB;
     height: 75px;
     width: 100%;
     padding: 3px;
+    border-radius: 3px;
 
   }
   .nav-link {
@@ -63,14 +64,16 @@
   }
   img { 
     margin: 50px;
+    border-radius: 5px;
+    float: left;
   }
    div p {
     width: 500px;
     height: 400px;
     color: black;
-    display: flex;
     font-size: 20px;
     color: #0D4859;
+  display: flex;
   }
   h1 {
     color: #0D4859;
@@ -85,7 +88,7 @@
     margin-top: 5px;
     margin-bottom: 15px;
     resize: vertical;
-    color: #cccccc;
+    color: #000;
   }
 
   input[type=submit] {
