@@ -15,13 +15,13 @@
   }
   body {
     font-family: 'Lato', sans-serif;
-    background-color: #CCE5EC;
+    background-color: #EDF6F9;
   }
   header {
     font-size: 75px;
     color: black;
     font-family: 'Playfair Display', serif;
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
     height: 185px;
     background-color: #99bbff;
@@ -33,7 +33,7 @@
     background-color: #73C0DB;
     height: 75px;
     width: 100%;
-    padding: 3px;
+    /* padding: 3px; */
     border-radius: 3px;
 
   }
@@ -106,6 +106,11 @@
     border-radius: 5px;
     background-color: #99bbff;
     padding: 20px;
+  }
+  footer {
+    width: 100%;
+    height: 150px;
+    background-color: lavender;
   }
  
  
