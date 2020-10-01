@@ -30,7 +30,7 @@
     opacity: 0.7;
     border-radius: 3px;
   }
-
+ 
   nav {
     background-color: #73C0DB;
     height: 75px;
@@ -81,6 +81,11 @@
     color: #0D4859;
     font-family: 'Playfair Display', serif;
   }
+  h3 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+  }
+
   input[type=text], select, textarea, [type=email] {
     width: 100%;
     padding: 12px;
@@ -120,4 +125,9 @@
   }
   h4 {
     color: #30037B;
+  }
+  .article {
+    width: 600px;
+    height: 400px;
+    color: #3E3E3E;
   }
