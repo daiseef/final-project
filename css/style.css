@@ -130,8 +130,9 @@ background: linear-gradient(43deg, rgba(0,112,156,1) 12%, rgba(134,1,123,0.78054
   }
   .article {
     width: 600px;
-    height: 450px;
+    height: 475px;
     color: #3E3E3E;
+    margin-left: 10px;
   }
   .extra {
     border: 3px solid #30037B;
@@ -154,4 +155,6 @@ background: linear-gradient(43deg, rgba(0,112,156,1) 12%, rgba(134,1,123,0.78054
   }
   .meditate {
     float: right;
+    margin-right: 200px;
+    margin-top: 10px;
   }
