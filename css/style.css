@@ -19,16 +19,18 @@
     font-family: 'Lato', sans-serif;
     background-color: #EDF6F9;
   }
+ 
   header {
     font-size: 75px;
     color: black;
     font-family: 'Playfair Display', serif;
-    /* padding: 20px; */
     width: 100%;
     height: 185px;
     background-color: #99bbff;
     opacity: 0.7;
     border-radius: 3px;
+    background: rgb(0,112,156);
+background: linear-gradient(43deg, rgba(0,112,156,1) 12%, rgba(134,1,123,0.7805497198879552) 49%, rgba(17,27,149,1) 100%);
   }
  
   nav {
@@ -74,11 +76,11 @@
     height: 400px;
     color: black;
     font-size: 20px;
-    color: #0D4859;
+    color: #3E3E3E;
   display: flex;
   }
   h1 {
-    color: #0D4859;
+    color: #3E3E3E;
     font-family: 'Playfair Display', serif;
   }
   h3 {
@@ -128,6 +130,25 @@
   }
   .article {
     width: 600px;
-    height: 400px;
+    height: 300px;
     color: #3E3E3E;
+  }
+  .extra {
+    border: 3px solid #30037B;
+    width: 150px;
+    height: 200px;
+    font-family: 'Playfair Display', serif;
+    float: left;
+    position: relative;
+  }
+  h5 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+  #link {
+    font-size: 15px;
+  }
+  iframe {
+    margin: 5px;
   }
