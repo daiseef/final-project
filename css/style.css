@@ -130,7 +130,7 @@ background: linear-gradient(43deg, rgba(0,112,156,1) 12%, rgba(134,1,123,0.78054
   }
   .article {
     width: 600px;
-    height: 300px;
+    height: 450px;
     color: #3E3E3E;
   }
   .extra {
@@ -151,4 +151,7 @@ background: linear-gradient(43deg, rgba(0,112,156,1) 12%, rgba(134,1,123,0.78054
   }
   iframe {
     margin: 5px;
+  }
+  .meditate {
+    float: right;
   }
